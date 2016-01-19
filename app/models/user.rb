@@ -5,7 +5,8 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :beers, inverse_of: :user
-  has_many :beer_comments, inverse_of: :user
+  has_many :comments, inverse_of: :commentable
+  # has_many :beer_comments, inverse_of: :user
 
   acts_as_voter     # relationship :votes will be obscured by the same named relationship from acts_as_voteable :(
 end
