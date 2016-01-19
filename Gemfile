@@ -22,6 +22,7 @@ gem 'rails_admin'
 gem 'foundation-rails', '5.5.3.2'
 gem 'thumbs_up'
 gem 'devise'
+gem 'commontator'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
