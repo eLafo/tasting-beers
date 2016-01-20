@@ -23,6 +23,8 @@ gem 'foundation-rails', '5.5.3.2'
 gem 'thumbs_up'
 gem 'devise'
 gem 'react-rails'
+gem 'flux-rails-assets'
+gem 'lodash-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
